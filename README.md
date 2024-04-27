@@ -24,6 +24,22 @@ This document outlines the network configuration for a system using the followin
 - **Gateway**: 192.168.40.1
 - **Proxy Server IP**: 192.168.40.225
 
+## Post-Restore Setup
+
+After restoring the system, proceed with the following configuration steps:
+
+### Proxy Server Interface Setup
+
+Configure the proxy server interfaces as follows:
+
+- **Interface Ether1**: Connects to the local network above.
+- **Interface Ether 2 to Interface Ether 5**: Connects to the Viettel bridge network.
+### USB Interface Setup
+
+Connect all your Dcom devices to the USB interface for seamless integration.
+
+
+
 ## Proxy Server Access
 
 ### WAN Proxy Manager
